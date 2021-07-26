@@ -1,9 +1,7 @@
 README.md:
 	touch README.md
-var1=$ grep "make" $HISTTIMEFORMAT="%d"
-var2=$ grep "make" $HISTTIMEFORMAT="%T"
-var3=$ wc -l guessinggame.sh 
-# Aravind's project 
-- Date : $var1
-- Time : $var2
-- Number of lines : $var3
+	var3=$(shell wc -l < guessinggame.sh) 
+	echo "# Aravind's project" >> README.md
+	echo "- Date :" >> README.md 
+	echo "- Time :" >> README.md
+	echo "- Number of lines :" $var3 >> README.md
