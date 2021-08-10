@@ -1,3 +1,3 @@
 # Aravind's project
-- Date & Time :
-- Number of lines : 18
+- Date & Time of make:
+- Number of lines of code : 18
