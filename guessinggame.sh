@@ -1,3 +1,5 @@
+function guessGame()
+{
 count=$(ls /home/ubuntu/Aravind/project/ | wc -l)
 echo $count
 until [[ $count -eq $number ]]
@@ -16,3 +18,5 @@ else
 echo "Congratulations"
 fi
 done
+}
+guessGame
